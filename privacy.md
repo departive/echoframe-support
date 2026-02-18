@@ -32,7 +32,7 @@ Your music library data stays entirely on your device and is only used to person
 
 ## Contact
 
-If you have questions about this privacy policy, contact us at: **your@email.com**
+If you have questions about this privacy policy, contact us at: **dvd@fastmail.com**
 
 ## Changes
 
