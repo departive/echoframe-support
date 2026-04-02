@@ -114,12 +114,12 @@
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="last-updated">Last Updated: February 21, 2026</p>
+    <p class="last-updated">Last Updated: April 2, 2026</p>
     
     <p>Echo Frame ("we," "our," or "the App") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our application.</p>
     
     <div class="highlight">
-        <p><strong>Our Promise:</strong> We collect only what's necessary to make Echo Frame work. Your photos are never stored on our servers, and your music library data stays on your device.</p>
+        <p><strong>Our Promise:</strong> We collect only what's necessary to make Echo Frame work. Your photos are never stored on our servers, and your music library data stays on your device. Your saved Echoes sync privately through your own iCloud account — your data stays in the Apple ecosystem, and you own it entirely.</p>
     </div>
     
     <h2>1. Information We Collect</h2>
@@ -143,7 +143,17 @@
     </ul>
     
     <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 10px; color: #ddd;">Saved Echoes</h3>
-    <p>Your saved Echoes (photo + song pairings) are stored locally on your device. We do not have access to this data.</p>
+    <p>Your saved Echoes (photo + song pairings) are stored on your device and sync across your devices via your private iCloud account using Apple's CloudKit framework. This data is encrypted in transit and at rest, stays within the Apple ecosystem, and is not accessible to us or any third party.</p>
+
+    <h3 style="font-size: 16px; margin-top: 20px; margin-bottom: 10px; color: #ddd;">iCloud Sync</h3>
+    <p>Echo Frame uses Apple's CloudKit to sync your Echoes across iPhone, iPad, and Apple TV:</p>
+    <ul>
+        <li>Sync uses your <strong>private iCloud database</strong> — only you can access it</li>
+        <li>Data is encrypted in transit and at rest by Apple</li>
+        <li>No echo data passes through our servers</li>
+        <li>Sync can be triggered manually in Settings, or happens automatically via silent push notifications</li>
+        <li>Your music library and Sonic DNA profile remain on-device and are <strong>not synced</strong></li>
+    </ul>
     
     <h2>2. How We Use Your Information</h2>
     
@@ -166,7 +176,7 @@
         <tr>
             <td>Saved Echoes</td>
             <td>Your personal collection</td>
-            <td>On-device only</td>
+            <td>On-device + your private iCloud</td>
         </tr>
         <tr>
             <td>Preferences</td>
@@ -193,6 +203,13 @@
         <li>Subject to <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a></li>
     </ul>
     
+    <p><strong>Apple iCloud / CloudKit</strong></p>
+    <ul>
+        <li>Used to sync your saved Echoes across iPhone, iPad, and Apple TV</li>
+        <li>Data stored in your private iCloud database (not shared or accessible to us)</li>
+        <li>Subject to <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a></li>
+    </ul>
+
     <p><strong>Apple App Store</strong></p>
     <ul>
         <li>Handles all payment processing for subscriptions</li>
@@ -204,15 +221,16 @@
     <ul>
         <li>All network communications use HTTPS encryption</li>
         <li>Photo data is transmitted securely and not persisted</li>
-        <li>Local data is protected by iOS device security</li>
-        <li>We do not store sensitive personal information on servers</li>
+        <li>Local data is protected by iOS and tvOS device security</li>
+        <li>iCloud data is encrypted in transit and at rest by Apple</li>
+        <li>We do not store sensitive personal information on our servers</li>
     </ul>
     
     <h2>5. Data Retention</h2>
     <ul>
         <li><strong>Photos:</strong> Not retained after analysis (real-time processing only)</li>
         <li><strong>Music Library Data:</strong> Stored on-device until you delete the app</li>
-        <li><strong>Saved Echoes:</strong> Stored until you delete them or the app</li>
+        <li><strong>Saved Echoes:</strong> Stored on-device and in your private iCloud until you delete them or the app. Deleting echoes removes them from all synced devices.</li>
         <li><strong>Preferences:</strong> Stored until you reset the app</li>
     </ul>
     
